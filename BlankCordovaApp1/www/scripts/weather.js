@@ -15,11 +15,6 @@ function showWeatherData(results) {
         $('#visibility').text(results.weather[0].main);
         $('#tempMin1').text(results.main[0].temp_min);
 
-        var sunriseDate = new Date(results.sys.sunrise * 1000);
-        $('#sunrise').text(sunriseDate.toLocaleTimeString());
-
-        var sunsetDate = new Date(results.sys.sunset * 1000);
-        $('#sunset').text(sunsetDate.toLocaleTimeString());
 
     } else {
         $('#weather-data').hide();
