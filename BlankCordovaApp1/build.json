@@ -1,11 +1,13 @@
 {
-     "android": {
-      "release": {
-        "keystore": "",
-        "storePassword": "",
-        "alias": "",
-        "password": "",
-        "keystoreType": ""
-      }
-     }
- }
+  "android": {
+    "release": {
+      "keystore": "c:\\my-release-key.keystore",
+      "storePassword": "pwd123!!",
+      "alias": "chris",
+      "password": "pwd123!!",
+      "keystoreType": ""
+    }
+  }
+}
+
+
