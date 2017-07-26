@@ -8,8 +8,8 @@
     document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
 
     function onDeviceReady() {
-        $('#get-weather-btn').click(getWeatherWithZipCode);
-        getWeatherWithGeoLocation();
+        //call index.js function on ducument ready
+          getWeatherWithGeoLocation();
     };
 
     function onPause() {
