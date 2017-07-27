@@ -15,7 +15,6 @@ function showWeatherData(results) {
         $('#visibility').text(results.weather[0].main);
         $('#tempMin1').text(results.main[0].temp_min);
 
-
     } else {
         $('#weather-data').hide();
         $('#error-msg').show();
